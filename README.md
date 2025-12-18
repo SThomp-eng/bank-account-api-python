@@ -39,16 +39,12 @@ The **Bank Account UI** is a React-based front-end application built with Vite t
 
 2. Install the dependencies:
    ```sh
-   pip install -r requirements.txt
-   # Or using Poetry (recommended)
-   poetry install
+   pip3 install -r requirements.txt
    ```
 
 3. Run the API:
    ```sh
-   uvicorn app.main:app --reload --port 3000
-   # Or using Poetry
-   poetry run uvicorn app.main:app --reload --port 3000
+   python3 -m uvicorn app.main:app --reload --port 3000
    ```
 
 4. Open the browser and navigate to:
@@ -93,19 +89,19 @@ To run the tests in this project, follow these steps:
    ```
 2. Run the following command to execute all tests:
    ```sh
-   pytest
+   python3 -m pytest
    ```
 3. Run the following command to execute the unit tests only:
    ```sh
-   pytest tests/unit
+   python3 -m pytest tests/unit
    ```
 4. Run the following command to execute the end-to-end tests only:
    ```sh
-   pytest tests/e2e
+   python3 -m  pytest tests/e2e
    ```
 5. Run tests with coverage:
    ```sh
-   pytest --cov=app --cov-report=html
+   python3 -m pytest --cov=app --cov-report=html
    ```
 
 ### Frontend Tests
