@@ -199,6 +199,8 @@ To install frontend dependencies:
 cd bank-account-ui
 npm install
 ```
+## Context 7 Command
+code --add-mcp '{"name":"context7","type":"stdio","command":"npx","args":["@upstash/context7-mcp@1.0.31"],"env":{"CONTEXT7_API_KEY":"${input:CONTEXT7_API_KEY}"},"gallery":"https://api.mcp.github.com","version":"1.0.31"}' --folder-uri .
 
 ## Technologies Used
 
